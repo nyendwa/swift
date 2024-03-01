@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.1) 50%), url(IMG/skrill.webp) center/cover;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 75rem;
+    height: 4.6875rem;
+    margin: auto;
+}
+
+.icon {
+    height: 12.5rem;
+    float: left;
+    width: 4.6875rem;
+}
+
+.logo {
+    color: #ff7200;
+    font-family: forte;
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu {
+    width: -50px;
+    float: right;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #6a0fa3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+.search {
+    float: left;
+    margin-left: 180px;
+    margin-top: 16px;
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    height: 32px;
+    background: transparent;
+    border: 2px solid #ff7200;
+    width: 180px;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 35px;
+    background-color: #ff7200;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px #ff7200;
+    margin-left: 5px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.content {
+    font-size: 20px;
+    color: #fff;
+    box-sizing: border-box;
+    display: block;
+}
+
+.slogan {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.Signup {
+    cursor: pointer;
+    width: 160px;
+    margin-right: 16px;
+    background-color: rgb(40, 207, 212);
+    background-origin: padding-box;
+    background-repeat: repeat;
+    background-size: auto;
+    border-bottom: rgb(0, 80, 108);
+    box-sizing: border-box;
+    box-shadow: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    height: 40px;
+    padding-bottom: 9px;
+    padding-top: 12px;
+    border-radius: 5px;
+}
+
+.Learnmore {
+    cursor: pointer;
+    width: 160px;
+    margin-right: 16px;
+    background-color: rgb(40, 207, 212);
+    background-origin: padding-box;
+    background-repeat: repeat;
+    background-size: auto;
+    border-image-repeat: repeat;
+    border-bottom: rgb(0, 80, 108);
+    box-sizing: border-box;
+    box-shadow: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    height: 40px;
+    padding-bottom: 9px;
+    padding-top: 12px;
+    border-radius: 5px;
+}
