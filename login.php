@@ -17,10 +17,10 @@
             <div class="menu">
                 <ul>
 
-                    <li><a href="#">BUSINESS</a></li>
-                    <li><a href="#">CUSTOMER</a></li>
-                    <li><a href="#">LOG IN</a></li>
-                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#" class="business">BUSINESS</a></li>
+                    <li><a href="#" class="customer">CUSTOMER</a></li>
+                    <li><a href="#" class="login">LOG IN</a></li>
+                    <li><a href="#" class="register">REGISTER</a></li>
                 </ul>
 
             </div>
@@ -37,12 +37,13 @@
                     Pay online, send money and earn loyalty points with a<br> digital wallet used by millions.
                 </p>
                 <p>
-                    <button><a href="" class="Signup">Sign up now!</a></button>
-                    <button><a href="" class="Learnmore">Learn more</a></button>
+                    <button class="Signup"><a href="">Sign up now!</a></button>
+                    <button class="Learnmore"><a href="">Learn more</a></button>
                 </p>
-                <button>Register</button>
+
             </div>
         </div>
+
 
     </div>
 </body>
